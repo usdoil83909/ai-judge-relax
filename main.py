@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 from pathlib import Path
 
-TEXT = """You may set everything down now.
+TEXT = """A cat has found the warm square of afternoon on the kitchen floor and folded itself into it, one paw over its nose, breathing so slowly that the dust above it barely moves. The radio hums in the next room, a song nobody is listening to. On the sill a jar of water holds the light and lets it go again, patient as a held note.
 
-The day's small urgencies can wait outside a moment. Notice the quiet around you - not empty, just unhurried, like a room after rain. Let one slow breath arrive on its own, then another, each a little lower and softer than the last.
+Nothing in this house is in a hurry. The kettle ticks as it cools. The broom leans in the corner where it was left mid-thought. Outside, the street has gone quiet enough to hear the tide of leaves in the gutter, the long soft s of them.
 
-Somewhere a kettle cools. A curtain lifts and settles. None of it asks anything of you. The things you are holding are patient; they will still be there, and they will be lighter.
+Somewhere in the walls the house settles, and it sounds like satisfaction.
 
-Let your shoulders drop a fraction. Unclench the small places - the jaw, the hands, the space behind the eyes. There is no score to keep here, nothing to compare, nothing to prove. For these few lines you are simply allowed.
-
-If a thought arrives, let it drift past like a leaf on still water, and turn gently back to the breath, back to the warm weight of being here.
-
-Rest is not a reward you earn later. It is already yours, this quiet minute, exactly as you are.
-
-Everything is fine. Stay a moment longer."""
+The cat does not lift its head. The afternoon has nowhere to be. The light in the jar keeps climbing slowly down the wall, making more room for evening."""
 
 OUTPUT_DIR = Path("/output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
